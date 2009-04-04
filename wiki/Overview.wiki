@@ -6,6 +6,7 @@ The function of Text-To-Speech (TTS) system is to convert an arbitrary text to a
 generally involves two steps
 
 1. Text processing: converting the given text to sequence if synthesis units and
+
 2.  Speech generation: generation of an acoustic wave form corresponding to each of these units
 in the sequence.
 
