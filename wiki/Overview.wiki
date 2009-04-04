@@ -1,4 +1,4 @@
-#summary Project overview
+#summary aa-tts Project overview
 
 = Introduction =
 
@@ -7,7 +7,8 @@ generally involves two steps
 # Text processing: converting the given text to sequence if synthesis units and
 # Speech generation: generation of an acoustic wave form corresponding to each of these units
 in the sequence.
---------------------------------
+
+
 = Features of Indian Language Scripts and Sounds:=
 The scripts of Indian languages have originated from the ancient Brahmi script. The basic units of
 writing system are characters which are orthographic representation of speech sounds. A character in
@@ -36,7 +37,6 @@ can be split in to atomic units set “A - ః” and/or to set “॓ - 􀃘�
 corresponding recorded atomic unit sounds which are recorded in a quiet room with a noise canceling
 microphone using the recording facilities of a typical multimedia computer system.
 
----------------
 
 =Text Processing Front End:=
 As we have discussed the issues related to text processing, let us briefly understand the nature of the text
@@ -56,7 +56,6 @@ is a non-trivial problem. For example, digit 120 has to expanded to /nuut`aa ira
 punctuation characters and their combinations such as :, < , >, !, % , which may be encountered in cases
 of ratios, percentages, comparisons can be mapped to a set of standard words according to the context.
 
-----------------------
 
 =Synthesis Approach:=
 The text to be synthesized is analyzed and broken into sequence of atomic units to be selected and
@@ -69,7 +68,6 @@ atomic units as its viruma form and identified vowel; instead of A.
 All the atomic units are concatenated for every word and sound is produced using previously recorded
 atomic units.
 
---------------
 
 =Applications of Speech Synthesis Systems:=
 The applications of speech synthesis systems are wide ranging including human-computer interaction,
